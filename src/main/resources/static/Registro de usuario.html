@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>El Rincón Geek</title>
+        <meta charset="UTF-8">
+        <link href="css/Menu.css" rel="stylesheet" type="text/css"/>
+        <link href="css/Estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <nav class="nav">
+                <a class="nav-link logo" href="index.html">El Rincón Geek</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link"href="Marvel.html">Marvel</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="DC.html">DC</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Star Wars.html">Star Wars</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Harry Potter.html">Harry Potter</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Anime.html">Anime</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Videojuegos.html">Videojuegos</a></li>
+                    <li class="nav-menu-item"><a class="nav-link nav-menu-link" href="Registro de usuario.html">Registro de usuario</a><li>
+                </ul>
+            </nav>
+        </header>
+        <aside>
+            <h2 style="background-color: khaki; color: black">Bienvenido a la familia geek</h2
+            <section>
+                <article>
+                     <h3>Registro de Usuario</h3>
+                     <form action="/usuario/registro" method="post">
+                         <h4>|---------Agregar usuario-----------|</h4>
+                        Usuario: <input required="true" type="text" name="username" value="" size="15" /><br/>
+                        <h4>|---------Agregar contraseña-----------|</h4>
+                        Contraseña: <input required="true" type="password" name="password" value="" size="10" /><br/>
+                        <h4>|---------Agregar nombre-----------|</h4>
+                        Nombre: <input required="true" type="text" name="nombre" value="" size="35" /><br/>
+                        <h4>|---------Agregar correo-----------|</h4>
+                        Correo: <input required="true" type="email" name="correo" value="" size="25" /><br/>
+                        <h4>|---------Agregar edad-----------|</h4>
+                        Edad: <input type="number" name="edad" value="" min="18" max="68" /><br/>
+                        <h4>|---------Agregar fecha de registro-----------|</h4>
+                        Fecha: <input type="date" name="fActivo" value="" /><br/>
+                        <input type="submit" value="Registro" />
+                    </form>
+                </article>
+            </section>
+        </aside>
+        <footer>
+            <p>Derechos Reservados &COPY; 2023</p>
+        </footer>
+    </body>
+</html>

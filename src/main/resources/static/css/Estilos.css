@@ -1,0 +1,40 @@
+p{
+    
+}
+
+
+h1,h2{
+    text-align: center;
+}
+
+
+
+h2{
+    width: 100%;
+    background-color: coral;
+    color: #ccffff;
+    left: 0;
+    right: 0;
+    
+}
+
+h3{
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+thead tr{
+    
+}
+
+tbody tr:nth-child(even){
+    background-color: gray;
+}
+
+tbody tr:nth-child(odd){
+    
+}
+
+
+
